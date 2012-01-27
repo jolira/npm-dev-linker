@@ -1,1 +1,9 @@
-#!/bin/sh
+#!/usr/bin/env node
+
+var linker = require("../lib/npm-dev-linker");
+
+linker(".", function(err, result) {
+  if (err) {
+    console.log(err);
+  }
+});
