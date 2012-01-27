@@ -1,6 +1,6 @@
 {
   "name": "npm-dev-linker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "npm-wrapper for folks who are developing multiple components concurrently",
   "keywords": ["development", "npm"],
   "repository": "git://github.com/jolira/npm-dev-linker.git",
@@ -9,6 +9,9 @@
     "url": "https://github.com/jolira/npm-dev-linker.git",
     "type": "git"
   },
+  "bin": {
+    "npm-dev-linker": "bin/npm-dev-linker"
+  },
   "scripts": {
     "prepublish": "npm prune"
   },
@@ -16,7 +19,6 @@
     "mail": "dev@jolira.com",
     "url": "http://github.com/jolira/npm-dev-linker/issues"
   },
-  "preferGlobal": true,
   "dependencies": {
     "underscore": "1.3.1",
     "npm": "*"
