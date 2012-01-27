@@ -1,6 +1,6 @@
 {
   "name": "npm-dev-linker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "npm-wrapper for folks who are developing multiple components concurrently",
   "keywords": ["development", "npm"],
   "repository": "git://github.com/jolira/npm-dev-linker.git",
