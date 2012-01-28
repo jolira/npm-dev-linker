@@ -1,7 +1,7 @@
 {
   "name": "npm-dev-linker",
-  "version": "0.0.3",
-  "description": "npm-wrapper for folks who are developing multiple components concurrently",
+  "version": "0.0.6",
+  "description": "npm-wrapper for developing multiple components concurrently; creates symbolic links from node_modules to local projects and runs npm install for external dependencies",
   "keywords": ["development", "npm"],
   "repository": "git://github.com/jolira/npm-dev-linker.git",
   "author": "Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)",
