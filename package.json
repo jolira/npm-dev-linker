@@ -1,6 +1,6 @@
 {
   "name": "npm-dev-linker",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "npm-wrapper for developing multiple components concurrently; creates symbolic links from node_modules to local projects and runs npm install for external dependencies",
   "keywords": ["development", "npm"],
   "repository": "git://github.com/jolira/npm-dev-linker.git",
